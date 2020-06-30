@@ -1,3 +1,9 @@
 Este é um projeto de teste para aula de laravel com docker
 
 iremos usara a imagem do bitnani para isso
+para começar digite docker-compose up e acesse localhost:3000
+
+para testar abra routes/web.php  e crie uma nova rota tipo:
+Route::get('/teste', function () {
+    return "Sucess";
+});
